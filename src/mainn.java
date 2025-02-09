@@ -6,7 +6,7 @@ public class mainn {
         LightDrone drone1 = new LightDrone("LD-001");
         HeavyDrone drone2 = new HeavyDrone("HD-001");
 
-        Cargo cargo = new Cargo(30, "Medical Supplies");
+        Cargo cargo = new Cargo(3git0, "Medical Supplies");
         DeliveryTask task = new DeliveryTask(earth, iss, cargo);
 
         if (task.assignDrone(drone1)) {
